@@ -1,0 +1,1 @@
+{"name": "Occhietto - Lezione dell'occhio", "short_name": "Occhietto", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#5ad1ff", "theme_color": "#5ad1ff", "lang": "it", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}]}
