@@ -10,6 +10,7 @@
 #photoView img{width:100%;height:100%;display:block}
 #chip{position:absolute;left:10px;top:10px;z-index:5;background:var(--acc);color:#fff;font-weight:800;padding:6px 14px;border-radius:20px;font-size:clamp(14px,3.6vw,20px);animation:pop .5s}
 @keyframes pop{from{transform:scale(.3)}to{transform:scale(1)}}
+#chip:empty{display:none}
 #photoView{transition:transform .6s ease;transform-origin:0 0}#ref.small #photoView{transform:scale(.68)}
 #o-part{filter:drop-shadow(0 0 1.2px #fff) drop-shadow(0 0 1px #000)}
 #ref #lineSvg{pointer-events:none;z-index:3}
